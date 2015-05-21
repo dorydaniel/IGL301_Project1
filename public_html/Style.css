@@ -5,9 +5,9 @@ html {
 body{
     color: white;
     margin: 5px 0px 0px;
-    height:1235px;
+    height:1135px;
     font-family: trebuchet ms;
-    background: linear-gradient(#B1B8C0, #232B36 100%);
+    background: linear-gradient(#ACB5BC, #232B36 100%);
 }
 
 #menu ul{
@@ -38,7 +38,7 @@ body{
 #wrapper{
     width:950px;
     margin:auto;
-    height:1100px;
+    height:1000px;
 }
 #wrapper #logo{
     float:left;
@@ -159,17 +159,37 @@ body{
     color: silver;
 }
 
-/*#wrapper #contentbot imga{
+#wrapper #contentbot #contentbotimg{
     float: left;
+    width: 115px;
+    margin-left: 120px;
+    margin-right: 32px;
+    margin-top: 5px;
 }
 
-#wrapper #contentbot a{
-    float: right;
+#wrapper #contentbot #contentbotimg img{
+    width: 140px;
 }
 
-#wrapper #contentbot aa{
-    float: right;
-}*/
+#wrapper #contentbot #contentbotoffers{
+    float: left;
+    width: 480px;
+    margin-top: 7px;
+}
+
+#wrapper #contentbot .offertitle{
+    float: left;
+    margin: 0px 150px 10px 0px;
+    font-weight: bold;
+    color: silver;
+}
+
+#wrapper #contentbot .offerdesc{
+    float: left;
+    margin: 0px 0px 42px;
+    font-weight: lighter;
+    font-size: 11px;
+}
 
 #footer{
     background: linear-gradient(#656E79, #77808B 100%);
