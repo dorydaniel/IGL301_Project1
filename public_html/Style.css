@@ -5,7 +5,6 @@ html {
 body{
     color: white;
     margin: 5px 0px 0px;
-    height:1135px;
     font-family: trebuchet ms;
     background: linear-gradient(#ACB5BC, #232B36 100%);
 }
@@ -196,6 +195,7 @@ body{
     height:75px;
     border-top:solid #B7BEC4 thin;
     padding:0px 16.6% 0px;
+    margin-bottom: 4px;
     line-height: 250%;
 }
 
