@@ -80,6 +80,27 @@ body{
     margin-left: 150px;
 }
 
+#wrapper #villavillage{
+    float: left;
+    margin-top: 20px;
+    margin-left: 24px;
+    width: 880px;
+}
+
+#wrapper #villavillage h4{
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+#wrapper #villavillage a img{
+    border: solid darksalmon;
+}
+
+#wrapper #villavillage p{
+    font-size: 12px;
+}
+
 #wrapper #contenttop{
     background-color: rgb(146, 154, 162);
     height:310px;
