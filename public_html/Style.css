@@ -6,7 +6,27 @@ body{
     color: white;
     margin: 5px 0px 0px;
     font-family: trebuchet ms;
-    background: linear-gradient(#ACB5BC, #232B36 100%);
+
+}
+
+#homebody{
+        background: linear-gradient(#ACB5BC, #232B36 100%);
+}
+
+#villabody{
+        background: linear-gradient(rgb(168, 176, 183), rgb(119, 129, 139) 100%);
+}
+
+#officebody{
+        background: linear-gradient(rgb(168, 176, 183), rgb(119, 129, 139) 100%);
+}
+
+#villagehousebody{
+        background: linear-gradient(rgb(168, 176, 183), rgb(119, 129, 139) 100%);
+}
+
+#contactusbody{
+        background: linear-gradient(rgb(168, 176, 183), rgb(119, 129, 139) 100%);
 }
 
 #menu ul{
@@ -34,12 +54,31 @@ body{
     color:orange;
 }
 
-#wrapper{
+#wrapperhome{
     width:950px;
     margin:auto;
     height:1000px;
 }
-#wrapper #logo{
+
+#wrapperoffice{
+    width:950px;
+    margin:auto;
+    height:720px;
+}
+
+#wrappervillavillagehouse{
+    width:950px;
+    margin:auto;
+    height:830px;
+}
+
+#wrappercontactus{
+    width:950px;
+    margin:auto;
+    height:520px;
+}
+
+#logo{
     float:left;
     display: inline;
     position:relative;
@@ -47,13 +86,13 @@ body{
     left:25px;
 }
 
-#wrapper #house2{
+#house2{
     float:right;
     width:950px;
     margin-top:-55px;
 }
 
-#wrapper h3{
+h3{
     color:#BABABA;
     font-size: 28px;
     font-weight: lighter;
@@ -62,7 +101,7 @@ body{
     margin-left: 40px;
 }
 
-#wrapper h1{
+h1{
     color:#FA9A87;
     font-size: 45px;
     font-weight: lighter;
@@ -71,7 +110,7 @@ body{
     margin-left: 70px;
 }
 
-#wrapper h2{
+h2{
     color:#848D97;
     font-size: 38px;
     font-weight: lighter;
@@ -80,28 +119,89 @@ body{
     margin-left: 150px;
 }
 
-#wrapper #villavillage{
+#villavillage{
     float: left;
     margin-top: 20px;
     margin-left: 24px;
     width: 880px;
 }
 
-#wrapper #villavillage h4{
+#villavillage h4{
     font-size: 32px;
     font-weight: lighter;
     margin-bottom: 10px;
 }
 
-#wrapper #villavillage a img{
+#villavillage a img{
     border: solid darksalmon;
 }
 
-#wrapper #villavillage p{
+#villavillage p{
     font-size: 12px;
 }
 
-#wrapper #contenttop{
+#contactuscontent{
+    background-color: rgb(146, 154, 162);
+    height:200px;
+    width: 930px;
+    float:left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -1px;
+}
+
+#contactuscontent img{
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#contactuscontent h2{
+    color: white;
+    margin: 50px 0px 0px 30px;
+}
+
+#contactuscontent p{
+    float: left;
+    font-size:13px;
+    font-weight: lighter;
+    width: 430px;
+    margin: 10px 100px 0px 30px;
+}
+
+#officecontent{
+    background-color: rgb(146, 154, 162);
+    height:400px;
+    width: 930px;
+    float:left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -1px;
+}
+
+#officecontent img{
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    border: solid white;
+}
+
+#officecontent h2{
+    color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#officecontent p{
+    float: right;
+    font-size:13px;
+    font-weight: lighter;
+    width: 260px;
+    margin-top: -25px;
+    margin-right: 15px;
+}
+
+#contenttop{
     background-color: rgb(146, 154, 162);
     height:310px;
     width: 930px;
@@ -111,19 +211,19 @@ body{
     margin-top: -1px;
 }
 
-#wrapper #contenttop img{
+#contenttop img{
     float: left;
     margin-top: 50px;
     margin-left: 20px;
 }
 
-#wrapper #contenttop h2{
+#contenttop h2{
     color: white;
     margin-top: 50px;
     margin-left: 30px;
 }
 
-#wrapper #contenttop h4{
+#contenttop h4{
     font-size: 20px;
     font-weight: lighter;
     float: left;
@@ -131,7 +231,7 @@ body{
     margin-left: 30px;
 }
 
-#wrapper #contenttop p{
+#contenttop p{
     float: left;
     font-size:15px;
     font-weight: lighter;
@@ -140,7 +240,7 @@ body{
     margin-left: 30px;
 }
 
-#wrapper #contentbot #left{
+#contentbot #left{
     float:left;
     color: white;
     font-weight: lighter;
@@ -148,7 +248,7 @@ body{
     margin-left: 20px;
 }
 
-#wrapper #contentbot #right{
+#contentbot #right{
     float:right;
     color: white;
     font-weight: lighter;
@@ -156,13 +256,13 @@ body{
     margin-right: 515px;
 }
 
-#wrapper #contentbot ul{
+#contentbot ul{
     float: left;
     margin-top: -5px; 
     list-style-type: none;
 }
 
-#wrapper #contentbot ul li:before {   
+#contentbot ul li:before {   
     content: "";  
     border-color: transparent white;  
     border-style: solid;  
@@ -175,11 +275,11 @@ body{
     position: relative;  
 } 
 
-#wrapper #contentbot ul li a{
+#contentbot ul li a{
     color: silver;
 }
 
-#wrapper #contentbot #contentbotimg{
+#contentbot #contentbotimg{
     float: left;
     width: 115px;
     margin-left: 120px;
@@ -187,24 +287,24 @@ body{
     margin-top: 5px;
 }
 
-#wrapper #contentbot #contentbotimg img{
+#contentbot #contentbotimg img{
     width: 140px;
 }
 
-#wrapper #contentbot #contentbotoffers{
+#contentbot #contentbotoffers{
     float: left;
     width: 480px;
     margin-top: 7px;
 }
 
-#wrapper #contentbot .offertitle{
+#contentbot .offertitle{
     float: left;
     margin: 0px 150px 10px 0px;
     font-weight: bold;
     color: silver;
 }
 
-#wrapper #contentbot .offerdesc{
+#contentbot .offerdesc{
     float: left;
     margin: 0px 0px 42px;
     font-weight: lighter;
@@ -215,8 +315,8 @@ body{
     background: linear-gradient(#656E79, #77808B 100%);
     height:75px;
     border-top:solid #B7BEC4 thin;
+    border-bottom: solid rgb(64, 69, 77) thick;
     padding:0px 16.6% 0px;
-    margin-bottom: 4px;
     line-height: 250%;
 }
 
