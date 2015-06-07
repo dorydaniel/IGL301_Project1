@@ -318,13 +318,13 @@ h2{
     margin-right: 515px;
 }
 
-#contentbot ul{
+#contentbot #list ul{
     float: left;
     margin-top: -5px; 
     list-style-type: none;
 }
 
-#contentbot ul li:before {   
+#contentbot #list ul li:before {   
     content: "";  
     border-color: transparent white;  
     border-style: solid;  
@@ -337,20 +337,25 @@ h2{
     position: relative;  
 } 
 
-#contentbot ul li a{
+#contentbot #list ul li a{
     color: silver;
+}
+
+#contentbot #contentbotimg ul{
+    list-style-image: url('key.png');
+    width: 0px;
+}
+
+#contentbot #contentbotimg ul li{
+    width: 0px;
 }
 
 #contentbot #contentbotimg{
     float: left;
-    width: 115px;
-    margin-left: 120px;
-    margin-right: 32px;
+    width: 50px;
+    margin-left: 215px;
+    margin-right: 0px;
     margin-top: 5px;
-}
-
-#contentbot #contentbotimg img{
-    width: 140px;
 }
 
 #contentbot #contentbotoffers{
